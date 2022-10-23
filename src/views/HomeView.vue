@@ -6,17 +6,17 @@ import TheWelcome from "../components/TheWelcome.vue";
   <main>
     <div class="desc">
       <img
-          title="Ewan Rakotoanosy au Wicklow Moutains National Park"
-          alt="Profile Picture"
-          class="profile"
-          src="@/assets/profile.png"
-          width="250"
-          height="250"
+        title="Ewan Rakotoanosy au Wicklow Moutains National Park"
+        alt="Profile Picture"
+        class="profile"
+        src="@/assets/profile.png"
+        width="250"
+        height="250"
       />
       <div>
         <h1>Ewan Rakotoanosy</h1>
-        <h3>Développeur Full Stack</h3>
-        <h4>Etudiant en Master à l'Université Savoie Mont Blanc</h4>
+        <h2>Développeur Full Stack</h2>
+        <h3>Etudiant en Master à l'Université Savoie Mont Blanc</h3>
       </div>
     </div>
   </main>
@@ -25,10 +25,11 @@ import TheWelcome from "../components/TheWelcome.vue";
 <style scoped>
 .desc {
   display: flex;
+  align-items: center;
 }
 
 .profile {
-  border-radius: 40%;
+  border-radius: 35%;
   display: block;
   margin: 0 10px 2rem;
 }

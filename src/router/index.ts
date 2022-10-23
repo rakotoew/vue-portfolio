@@ -27,6 +27,16 @@ const router = createRouter({
       name: "competence",
       component: CompetenceView,
     },
+    {
+      path: "/projects/pec",
+      name: "pec",
+      component: () => import("../components/PecProject.vue"),
+    },
+    {
+      path: "/welcome",
+      name: "welcome",
+      component: () => import("../components/TheWelcome.vue"),
+    },
   ],
 });
 

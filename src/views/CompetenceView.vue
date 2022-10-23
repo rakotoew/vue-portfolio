@@ -3,7 +3,7 @@
   <div>
     <h1>Mes Compétences Techniques :</h1>
     <div>
-      <h1>Language de programation</h1>
+      <h1>Languages</h1>
       <div>
         <img
           title="Python"
@@ -29,7 +29,7 @@
           src="@/assets/logo/logo-ocaml.png"
         />
       </div>
-      <h1>Framework</h1>
+      <h1>Frameworks</h1>
       <div>
         <img
           title="Node.js"
@@ -74,6 +74,6 @@ img {
   border-radius: 10px;
 }
 img:hover {
-  border-color: #2c3e50;
+  border:1px solid #2c3e50;
 }
 </style>
