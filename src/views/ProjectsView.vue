@@ -7,14 +7,14 @@
           <span>React & Nest</span>
           <p>
             Project d'un cloud avec un chiffrement bout-en-bout pour stocker et
-            partager des données de façon sécuriser
+            partager des données de façon sécurisée
           </p>
       </RouterLink>
       <RouterLink to="/projects/byod" class="card">
         <h2>BYOD</h2>
         <span class="blue">C#, Unity</span>
         <p>
-          Jeux sérieux réaliser avec Unity dans le but d'avoir un jeux crossplatform
+          Jeux sérieux réalisé avec Unity dans le but d'avoir un jeux crossplatform
         </p>
       </RouterLink>
     </div>
