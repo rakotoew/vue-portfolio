@@ -5,6 +5,7 @@
     "dev": "vite",
     "start": "npm run dev",
     "build": "run-p type-check build-only",
+    "build2": "npm run build",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
